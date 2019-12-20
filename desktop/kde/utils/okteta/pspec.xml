@@ -1,4 +1,3 @@
-
 <?xml version="1.0" ?>
 <!DOCTYPE INARY SYSTEM "https://raw.githubusercontent.com/Zaryob/inary/master/inary-spec.dtd">
 <INARY>
@@ -47,13 +46,12 @@
             <Dependency>kio</Dependency>
             <Dependency>ki18n</Dependency>
             <Dependency>kparts</Dependency>
-            <Dependency>libgcc</Dependency>
             <Dependency>kcodecs</Dependency>
             <Dependency>kconfig</Dependency>
             <Dependency>kxmlgui</Dependency>
             <Dependency>kcmutils</Dependency>
             <Dependency>kservice</Dependency>
-            <Dependency>qca2-qt5</Dependency>
+            <Dependency>qca2</Dependency>
             <Dependency>qt5-base</Dependency>
             <Dependency>knewstuff</Dependency>
             <Dependency>qt5-script</Dependency>

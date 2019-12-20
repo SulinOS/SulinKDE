@@ -1,0 +1,12 @@
+<INARY>
+    <SourceName>Sulin</SourceName>
+    <Version>2019</Version>
+    <Description xml:lang="tr">Sulin 2019 KDE Masaüstü Deposu</Description>
+    <Description xml:lang="az">Sulin 2019 KDE Anbari</Description>
+    <Description xml:lang="en">Sulin 2019 KDE Repository</Description>
+    <Description xml:lang="de">Sulin 2019 KDE desktop-repository</Description>
+    <Description xml:lang="fr">Sulin 2019 KDE dépôt bureautique</Description>
+    <Description xml:lang="ru">Sulin 2019 KDE настольное хранилище</Description>
+    <Type>KDE</Type>
+    <BinaryName>Sulin</BinaryName>
+</INARY>
