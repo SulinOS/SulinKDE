@@ -44,6 +44,7 @@
             <Dependency>libkgapi-devel</Dependency>
             <Dependency>libkleo-devel</Dependency>
             <Dependency>mailcommon-devel</Dependency>
+            <Dependency>prison-devel</Dependency>
             <Dependency>messagelib-devel</Dependency>
             <Dependency>pimcommon-devel</Dependency>
             <Dependency>python-devel</Dependency>
@@ -51,9 +52,12 @@
             <Dependency>qt5-declarative-devel</Dependency>
             <Dependency>qt5-webengine-devel</Dependency>
             <Dependency>kio-devel</Dependency>
+            <Dependency>kholidays-devel</Dependency>
+            <Dependency>libksieve-devel</Dependency>
             <Dependency>kmime-devel</Dependency>
             <Dependency>kcodecs-devel</Dependency>
             <Dependency>kcalendarcore-devel</Dependency>
+            <Dependency>kontactinterface-devel</Dependency>
             <Dependency>kservice-devel</Dependency>
             <Dependency>kcontacts-devel</Dependency>
             <Dependency>kitemviews-devel</Dependency>
@@ -92,6 +96,10 @@
             <Dependency>mailimporter</Dependency>
             <Dependency>eventviews</Dependency>
             <Dependency>kpkpass</Dependency>
+            <Dependency>prison</Dependency>
+            <Dependency>kholidays</Dependency>
+            <Dependency>libksieve</Dependency>
+            <Dependency>kontactinterface</Dependency>
             <Dependency>kitinerary</Dependency>
             <Dependency>grantleetheme</Dependency>
             <Dependency>incidenceeditor</Dependency>
@@ -134,7 +142,6 @@
             <Dependency>kdelibs4-support</Dependency>
             <Dependency>kidentitymanagement</Dependency>
             <Dependency>gpgme</Dependency>
-            <Dependency versionFrom="20170102">kdepimlibs</Dependency>
             <Dependency>kjobwidgets</Dependency>
             <Dependency>grantlee</Dependency>
         </RuntimeDependencies>
