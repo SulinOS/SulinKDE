@@ -50,7 +50,6 @@
     <Package>
         <Name>ksysguard</Name>
         <RuntimeDependencies>
-            <Dependency>icon-theme-hicolor</Dependency>
             <Dependency>kcompletion</Dependency>
             <Dependency>kconfig</Dependency>
             <Dependency>kconfigwidgets</Dependency>
