@@ -1773,6 +1773,7 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
                 <Dependency>libkgapi-devel</Dependency>
                 <Dependency>libkleo-devel</Dependency>
                 <Dependency>mailcommon-devel</Dependency>
+                <Dependency>prison-devel</Dependency>
                 <Dependency>messagelib-devel</Dependency>
                 <Dependency>pimcommon-devel</Dependency>
                 <Dependency>python-devel</Dependency>
@@ -1780,9 +1781,12 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
                 <Dependency>qt5-declarative-devel</Dependency>
                 <Dependency>qt5-webengine-devel</Dependency>
                 <Dependency>kio-devel</Dependency>
+                <Dependency>kholidays-devel</Dependency>
+                <Dependency>libksieve-devel</Dependency>
                 <Dependency>kmime-devel</Dependency>
                 <Dependency>kcodecs-devel</Dependency>
                 <Dependency>kcalendarcore-devel</Dependency>
+                <Dependency>kontactinterface-devel</Dependency>
                 <Dependency>kservice-devel</Dependency>
                 <Dependency>kcontacts-devel</Dependency>
                 <Dependency>kitemviews-devel</Dependency>
@@ -1821,6 +1825,10 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
                 <Dependency>mailimporter</Dependency>
                 <Dependency>eventviews</Dependency>
                 <Dependency>kpkpass</Dependency>
+                <Dependency>prison</Dependency>
+                <Dependency>kholidays</Dependency>
+                <Dependency>libksieve</Dependency>
+                <Dependency>kontactinterface</Dependency>
                 <Dependency>kitinerary</Dependency>
                 <Dependency>grantleetheme</Dependency>
                 <Dependency>incidenceeditor</Dependency>
@@ -1863,7 +1871,6 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
                 <Dependency>kdelibs4-support</Dependency>
                 <Dependency>kidentitymanagement</Dependency>
                 <Dependency>gpgme</Dependency>
-                <Dependency versionFrom="20170102">kdepimlibs</Dependency>
                 <Dependency>kjobwidgets</Dependency>
                 <Dependency>grantlee</Dependency>
             </RuntimeDependencies>
@@ -6908,6 +6915,7 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
                 <Dependency>ki18n-devel</Dependency>
                 <Dependency>kio-devel</Dependency>
                 <Dependency>kdewebkit-devel</Dependency>
+                <Dependency>libaccounts-glib-devel</Dependency>
                 <Dependency>telepathy-qt5-devel</Dependency>
                 <Dependency>ktp-common-internals-devel</Dependency>
                 <Dependency>telepathy-logger-qt-devel</Dependency>
@@ -6923,10 +6931,11 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
             <Summary xml:lang="en">Provide UI/KWallet Integration For Passwords and SSL Errors on Account Connect</Summary>
             <RuntimeDependencies>
                 <Dependency>kio</Dependency>
+                <Dependency>libaccounts-glib</Dependency>
                 <Dependency>ki18n</Dependency>
                 <Dependency>signon</Dependency>
                 <Dependency>kconfig</Dependency>
-                <Dependency>qca2-qt5</Dependency>
+                <Dependency>qca2</Dependency>
                 <Dependency>qt5-base</Dependency>
                 <Dependency>kcoreaddons</Dependency>
                 <Dependency>telepathy-qt5</Dependency>
@@ -15269,6 +15278,118 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
     </SpecFile>
     <SpecFile>
         <Source>
+            <Name>kdenlive</Name>
+            <Homepage>http://www.kdenlive.org</Homepage>
+            <Packager>
+                <Name>Süleyman Poyraz</Name>
+                <Email>zaryob.dev@gmail.com</Email>
+            </Packager>
+            <License>GPLv2</License>
+            <IsA>app:gui</IsA>
+            <PartOf>desktop.kde.multimedia</PartOf>
+            <Summary xml:lang="en">A video editing GUI for KDE4 using the MLT video framework</Summary>
+            <Description xml:lang="en">kdenlive provides dual video monitors, a multi-track timeline and clip list. Other features include customizable layout support, basic effects and transitions.</Description>
+            <Archive type="tarxz" sha1sum="cb2a38115aef004e757c04a66b2be28f6645f85f">mirrors://kde/stable/applications/19.08.3/src/kdenlive-19.08.3.tar.xz</Archive>
+            <BuildDependencies>
+                <Dependency>extra-cmake-modules</Dependency>
+                <Dependency>qt5-base-devel</Dependency>
+                <Dependency>qt5-multimedia-devel</Dependency>
+                <Dependency>kdeclarative-devel</Dependency>
+                <Dependency>qt5-script-devel</Dependency>
+                <Dependency>ladspa-sdk-devel</Dependency>
+                <Dependency>qt5-svg-devel</Dependency>
+                <Dependency>qt5-webkit-devel</Dependency>
+                <Dependency>qt5-location-devel</Dependency>
+                <Dependency>karchive-devel</Dependency>
+                <Dependency>kbookmarks-devel</Dependency>
+                <Dependency>kcoreaddons-devel</Dependency>
+                <Dependency>kconfig-devel</Dependency>
+                <Dependency>kconfigwidgets-devel</Dependency>
+                <Dependency>kdbusaddons-devel</Dependency>
+                <Dependency>kfilemetadata-devel</Dependency>
+                <Dependency>libv4l-devel</Dependency>
+                <Dependency>kio-devel</Dependency>
+                <Dependency>purpose-devel</Dependency>
+                <Dependency>ffmpeg-devel</Dependency>
+                <Dependency>sdl-image-devel</Dependency>
+                <Dependency>kwidgetsaddons-devel</Dependency>
+                <Dependency>kplotting-devel</Dependency>
+                <Dependency>knotifyconfig-devel</Dependency>
+                <Dependency>knewstuff-devel</Dependency>
+                <Dependency>kxmlgui-devel</Dependency>
+                <Dependency>knotifications-devel</Dependency>
+                <Dependency>kguiaddons-devel</Dependency>
+                <Dependency>ktextwidgets-devel</Dependency>
+                <Dependency>kiconthemes-devel</Dependency>
+                <Dependency>kdoctools-devel</Dependency>
+                <Dependency>mlt-devel</Dependency>
+                <Dependency>qt5-declarative-devel</Dependency>
+            </BuildDependencies>
+            <SourceURI>desktop/kde/graphics/kdenlive/pspec.xml</SourceURI>
+        </Source>
+        <Package>
+            <Name>kdenlive</Name>
+            <RuntimeDependencies>
+                <Dependency>kio</Dependency>
+                <Dependency>qt5-multimedia</Dependency>
+                <Dependency>mlt</Dependency>
+                <Dependency>cdrtools</Dependency>
+                <Dependency>ki18n</Dependency>
+                <Dependency>solid</Dependency>
+                <Dependency>kcrash</Dependency>
+                <Dependency>ffmpeg</Dependency>
+                <Dependency>kconfig</Dependency>
+                <Dependency>purpose</Dependency>
+                <Dependency>kxmlgui</Dependency>
+                <Dependency>qt5-svg</Dependency>
+                <Dependency>karchive</Dependency>
+                <Dependency>kservice</Dependency>
+                <Dependency>qt5-base</Dependency>
+                <Dependency>knewstuff</Dependency>
+                <Dependency>kplotting</Dependency>
+                <Dependency>sdl-image</Dependency>
+                <Dependency>dvdauthor</Dependency>
+                <Dependency>kbookmarks</Dependency>
+                <Dependency>kguiaddons</Dependency>
+                <Dependency>kitemviews</Dependency>
+                <Dependency>qt5-script</Dependency>
+                <Dependency>qt5-webkit</Dependency>
+                <Dependency>ladspa-sdk</Dependency>
+                <Dependency>kcompletion</Dependency>
+                <Dependency>kcoreaddons</Dependency>
+                <Dependency>kdbusaddons</Dependency>
+                <Dependency>kiconthemes</Dependency>
+                <Dependency>kjobwidgets</Dependency>
+                <Dependency>qt5-location</Dependency>
+                <Dependency>ktextwidgets</Dependency>
+                <Dependency>kfilemetadata</Dependency>
+                <Dependency>knotifyconfig</Dependency>
+                <Dependency>kconfigwidgets</Dependency>
+                <Dependency>knotifications</Dependency>
+                <Dependency>kwidgetsaddons</Dependency>
+                <Dependency>qt5-declarative</Dependency>
+            </RuntimeDependencies>
+            <Files>
+                <Path fileType="config">/etc/xdg</Path>
+                <Path fileType="data">/usr/share</Path>
+                <Path fileType="library">/usr/lib</Path>
+                <Path fileType="doc">/usr/share/doc</Path>
+                <Path fileType="executable">/usr/bin</Path>
+                <Path fileType="man">/usr/share/man</Path>
+            </Files>
+        </Package>
+        <History>
+            <Update release="1">
+                <Date>2019-09-16</Date>
+                <Version>19.08.3</Version>
+                <Comment>First release</Comment>
+                <Name>Süleyman Poyraz</Name>
+                <Email>zaryob.dev@gmail.com</Email>
+            </Update>
+        </History>
+    </SpecFile>
+    <SpecFile>
+        <Source>
             <Name>kstars</Name>
             <Homepage>http://edu.kde.org/applications/all/kstars</Homepage>
             <Packager>
@@ -19126,6 +19247,7 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
             <Summary xml:lang="en">Development files for purpose</Summary>
             <PartOf>desktop.kde.devel</PartOf>
             <RuntimeDependencies>
+                <Dependency release="1">purpose</Dependency>
                 <Dependency>qt5-base-devel</Dependency>
             </RuntimeDependencies>
             <Files>
@@ -23532,7 +23654,6 @@ It supports email, address books, calendars, tasks, news feeds and much more.</D
         <Package>
             <Name>ksysguard</Name>
             <RuntimeDependencies>
-                <Dependency>icon-theme-hicolor</Dependency>
                 <Dependency>kcompletion</Dependency>
                 <Dependency>kconfig</Dependency>
                 <Dependency>kconfigwidgets</Dependency>
