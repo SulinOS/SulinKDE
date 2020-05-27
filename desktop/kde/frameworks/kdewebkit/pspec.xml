@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE5 WebKit integration</Summary>
         <Description>KdeWebkit provides KDE integration of the QtWebKit library.</Description>
-        <Archive sha1sum="d64bae91091eda6a7532ebec06aa70893b79e1f8" type="tarxz">mirrors://kde/stable/frameworks/5.70/kdewebkit-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="b94cb847859b38648349dbf78baa474f3ac6d149" type="tarxz">mirrors://kde/stable/frameworks/5.70/portingAids/kdewebkit-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-webkit-devel</Dependency>

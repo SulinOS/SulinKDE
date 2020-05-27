@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Resource and network access abstraction</Summary>
         <Description>Network transparent access to files and data</Description>
-        <Archive sha1sum="4648dff93ba7f201117258b80f37aef24b7eae32" type="tarxz">mirrors://kde/stable/frameworks/5.70/kio-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="20b4920882516c1abfacc4f6997a3879369d085a" type="tarxz">mirrors://kde/stable/frameworks/5.70/kio-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>mit-kerberos</Dependency>
@@ -85,6 +85,7 @@
             <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="library">/usr/lib/qt5</Path>
             <Path fileType="library">/usr/lib</Path>
+            <Path fileType="executable">/usr/libexec</Path>
             <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="man">/usr/share/man</Path>
         </Files>

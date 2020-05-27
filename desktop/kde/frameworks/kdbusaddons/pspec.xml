@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Extra modules for Qt-DBus</Summary>
         <Description>KDE5-KDBusAddons provides convenience classes on top of QtDBus, as well as an API to create KDED modules.</Description>
-        <Archive sha1sum="f47d92a31af072e153bbdd1edbdf87029150b227" type="tarxz">mirrors://kde/stable/frameworks/5.70/kdbusaddons-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="d249672de3cc898e148f37c9e533906da45a5f7a" type="tarxz">mirrors://kde/stable/frameworks/5.70/kdbusaddons-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>

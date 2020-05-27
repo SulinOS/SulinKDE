@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE Gettext-based UI text internationalization.</Summary>
         <Description>KI18n provides functionality for internationalizing user interface text in applications, based on the GNU Gettext translation system.</Description>
-        <Archive sha1sum="d8f302fc063b2d3375cf537b44ba1627a5674943" type="tarxz">mirrors://kde/stable/frameworks/5.70/ki18n-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="36fad53526633883471da2861e52d1788f0972e6" type="tarxz">mirrors://kde/stable/frameworks/5.70/ki18n-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-script-devel</Dependency>

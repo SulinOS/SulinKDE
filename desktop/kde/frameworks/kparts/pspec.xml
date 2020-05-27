@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Plugin framework for user interface components</Summary>
         <Description>This library implements the framework for KDE parts, which are elaborate widgets with a user-interface defined in terms of actions (menu items, toolbar icons).</Description>
-        <Archive sha1sum="88fe0f15ecf09e0973bb593b6146d6640dbf639b" type="tarxz">mirrors://kde/stable/frameworks/5.70/kparts-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="e218351158028664750bd59975de87e6917cf63e" type="tarxz">mirrors://kde/stable/frameworks/5.70/kparts-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kauth-devel</Dependency>

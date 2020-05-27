@@ -17,6 +17,7 @@
         <Archive sha1sum="1bdef5d72899e7cf6abf8ea5c7f6b686a67f0158" type="tarxz">mirrors://kde/stable/frameworks/5.70/purpose-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
+            <Dependency>kio-devel</Dependency>
             <Dependency>kirigami-devel</Dependency>
             <Dependency>extra-cmake-modules</Dependency>
         </BuildDependencies>
@@ -27,6 +28,7 @@
         <RuntimeDependencies>
             <Dependency>qt5-base</Dependency>
             <Dependency>kirigami</Dependency>
+            <Dependency>kio</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="config">/etc/</Path>

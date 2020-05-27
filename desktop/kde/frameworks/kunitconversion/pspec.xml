@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE unit conversion framework</Summary>
         <Description>KUnitConversion provides functions to convert values in different physical units.</Description>
-        <Archive sha1sum="88fe0f15ecf09e0973bb593b6146d6640dbf639b" type="tarxz">mirrors://kde/stable/frameworks/5.70/kunitconversion-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="9910e9b981b0d6481e43e16bb29abc45465e75a5" type="tarxz">mirrors://kde/stable/frameworks/5.70/kunitconversion-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>ki18n-devel</Dependency>

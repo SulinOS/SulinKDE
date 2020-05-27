@@ -15,8 +15,8 @@
         <Description>KDE5 Frameworks API documentation tools.</Description>
         <Archive sha1sum="4953c45d35a7605e85f7c12ba68ce80e25b90aed" type="tarxz">mirrors://kde/stable/frameworks/5.70/kapidox-5.70.0.tar.xz</Archive>
         <BuildDependencies>
-            <Dependency>python-Jinja2</Dependency>
-            <Dependency>python-PyYAML</Dependency>
+            <Dependency>python3-Jinja2</Dependency>
+            <Dependency>python3-PyYAML</Dependency>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>extra-cmake-modules</Dependency>
         </BuildDependencies>
@@ -26,6 +26,8 @@
         <Name>kapidox</Name>
         <RuntimeDependencies>
             <Dependency>qt5-base</Dependency>
+            <Dependency>python3-Jinja2</Dependency>
+            <Dependency>python3-PyYAML</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>

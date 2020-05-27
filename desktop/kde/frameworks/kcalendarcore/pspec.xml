@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Kcalendarcore crash handling application</Summary>
         <Description>KCrash provides support for intercepting and handling application calendarcorees.</Description>
-        <Archive sha1sum="88fe0f15ecf09e0973bb593b6146d6640dbf639b" type="tarxz">mirrors://kde/stable/frameworks/5.70/kcalendarcore-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="29c4415301b248ad3d7aa7126bb7ffeea9986f1d" type="tarxz">mirrors://kde/stable/frameworks/5.70/kcalendarcore-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-x11extras-devel</Dependency>

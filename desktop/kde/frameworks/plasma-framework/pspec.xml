@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Plasma library and runtime components based upon KDE Frameworks 5 and Qt5</Summary>
         <Description>Plasma library and runtime components based upon KF5 and Qt5</Description>
-        <Archive sha1sum="bdede1efdd02eec3e5ee34eb555e44227d2bb2f1" type="tarxz">mirrors://kde/stable/frameworks/5.70/plasma-framework-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="09a0c4d8a461c0ba81caf854af91cb676879b3d8" type="tarxz">mirrors://kde/stable/frameworks/5.70/plasma-framework-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-quickcontrols</Dependency>

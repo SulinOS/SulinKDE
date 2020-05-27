@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Framework providing components to allow applications to integrate with a KDE Workspace</Summary>
         <Description>Framework Integration is a set of plugins responsible for better integration of Qt applications when running on a KDE Plasma workspace.</Description>
-        <Archive sha1sum="28ae2ba65ccdb583d79f85b8cc9509fae697493b" type="tarxz">mirrors://kde/stable/frameworks/5.70/frameworkintegration-5.70.0.tar.xz</Archive>
+        <Archive sha1sum="1e43ae8b30a65a06269e2c37cf9a06ef5b18414e" type="tarxz">mirrors://kde/stable/frameworks/5.70/frameworkintegration-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>libxcb-devel</Dependency>
             <Dependency>libXcursor-devel</Dependency>
@@ -65,6 +65,7 @@
             <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="library">/usr/lib/qt5</Path>
             <Path fileType="library">/usr/lib</Path>
+            <Path fileType="executable">/usr/libexec</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>

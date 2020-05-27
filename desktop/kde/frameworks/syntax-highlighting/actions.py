@@ -18,5 +18,5 @@ def build():
 def install():
     kde.install()
 
-    inarytools.dodoc("COPYING.LIB", "README.md")
+    inarytools.dodoc("README.md")
 
