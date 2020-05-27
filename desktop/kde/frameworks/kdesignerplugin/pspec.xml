@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>QT Designer integration for KDE5 Frameworks widgets</Summary>
         <Description>This framework provides plugins for Qt Designer that allow it to display the widgets provided by various KDE frameworks, as well as a utility (kgendesignerplugin) that can be used to generate other such plugins from ini-style description files.</Description>
-        <Archive sha1sum="9ffd28f221cc547dc809b2d54348a2147ef6d9aa" type="tarxz">https://cgit.kde.org/kdesignerplugin.git/snapshot/kdesignerplugin-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="2977101068110161a14a35af36b3f6e63e75551f" type="tarxz">https://cgit.kde.org/kdesignerplugin.git/snapshot/kdesignerplugin-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -64,6 +64,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

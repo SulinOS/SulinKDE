@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Set of item models extending the Qt model-view framework</Summary>
         <Description>KItemViews includes a set of views, which can be used with item models. It includes views for categorizing lists and to add search filters to flat and hierarchical lists.</Description>
-        <Archive sha1sum="b5bac23b84e5c4d7a124740e05bf6ac8e666ef8a" type="tarxz">mirrors://kde/stable/frameworks/5.64/kitemviews-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="d5b6f0485309d8141d8257a782833140a1f86fa6" type="tarxz">mirrors://kde/stable/frameworks/5.70/kitemviews-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -52,6 +52,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Image formats addons for QT 5</Summary>
         <Description>This framework provides additional image format plugins for QtGui. </Description>
-        <Archive sha1sum="1abe4f665749943f263c026d3423d313c216cf04" type="tarxz">mirrors://kde/stable/frameworks/5.64/kimageformats-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="f582c6a90d5991eddf9ba15ba9c2739f74309228" type="tarxz">mirrors://kde/stable/frameworks/5.70/kimageformats-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>openexr-devel</Dependency>
@@ -40,6 +40,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

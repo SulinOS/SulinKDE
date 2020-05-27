@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Library for KDE's Plasma Activities support</Summary>
         <Description>Kactivities provides an API for using and interacting with the Plasma Activities Manager.</Description>
-        <Archive sha1sum="75e0ed8ae76f69d115a772d7af633f67b8e6494d" type="tarxz">mirrors://kde/stable/frameworks/5.64/kactivities-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="28ae2ba65ccdb583d79f85b8cc9509fae697493b" type="tarxz">mirrors://kde/stable/frameworks/5.70/kactivities-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>mesa-devel</Dependency>
@@ -101,6 +101,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE password storage framework</Summary>
         <Description>This framework contains two main components: Interface to KWallet, the safe desktop-wide storage for passwords on KDE workspaces. The kwalletd used to safely store the passwords on KDE work spaces.</Description>
-        <Archive sha1sum="81dc1d778917265668e5e4a69e08a6ede6e301d6" type="tarxz">mirrors://kde/stable/frameworks/5.64/kwallet-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="e15c9af0310febfb09658c9c0feb5a0568e0b608" type="tarxz">mirrors://kde/stable/frameworks/5.70/kwallet-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>docbook-xsl</Dependency>
             <Dependency>qt5-base-devel</Dependency>
@@ -81,6 +81,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

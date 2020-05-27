@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Access and manipulate bookmarks stored using XBEL format</Summary>
         <Description>Framework which lets you access and manipulate bookmarks stored using XBEL format</Description>
-        <Archive sha1sum="1296ab6e6938c5be9c2898afc578d619f1c49923" type="tarxz">mirrors://kde/stable/frameworks/5.64/kbookmarks-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="ab26d4673b3256ddb746e64bbe9c621ec24acb52" type="tarxz">mirrors://kde/stable/frameworks/5.70/kbookmarks-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -72,6 +72,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

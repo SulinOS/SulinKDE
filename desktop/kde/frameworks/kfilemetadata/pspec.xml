@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE5 library for extracting meta data from files.</Summary>
         <Description>KDE library for extracting meta data from files.</Description>
-        <Archive sha1sum="f60ad410414929efd08f388c4ed98d79e0fc20de" type="tarxz">mirrors://kde/stable/frameworks/5.64/kfilemetadata-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="cf3c49d163ec50c4cd4e7cc318e98a12920c1d0b" type="tarxz">mirrors://kde/stable/frameworks/5.70/kfilemetadata-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>ebook-tools-devel</Dependency>
@@ -73,6 +73,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

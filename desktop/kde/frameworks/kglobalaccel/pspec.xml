@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Global desktop keyboard shortcuts</Summary>
         <Description>KGlobalAccel allows you to have global accelerators that are independent of the focused window.</Description>
-        <Archive sha1sum="39f727b3e25f90a4e675ac183bd332679c01ca02" type="tarxz">mirrors://kde/stable/frameworks/5.64/kglobalaccel-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="87fc002e99de34fd3655d54bf1c333dc17bb0a75" type="tarxz">mirrors://kde/stable/frameworks/5.70/kglobalaccel-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -79,6 +79,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

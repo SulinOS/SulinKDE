@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>User interface for running shell commands with root privileges</Summary>
         <Description>kdesu provides functionality for building GUI front ends for (password asking) console mode programs.</Description>
-        <Archive sha1sum="79a308ed2e79a7e121b73a35845258ef0d6ad8e5" type="tarxz">mirrors://kde/stable/frameworks/5.64/kdesu-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="8e08cfc908846d1cdcb575cad5c30f5c82b79bc0" type="tarxz">mirrors://kde/stable/frameworks/5.70/kdesu-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kcoreaddons-devel</Dependency>
@@ -68,6 +68,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

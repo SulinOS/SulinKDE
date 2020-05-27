@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>A QT wrapper around the NetworkManager libraries</Summary>
         <Description>A QT wrapper around the NetworkManager libraries</Description>
-        <Archive sha1sum="3c885e29ade94e53ae097aee95a76e9535695fc8" type="tarxz">mirrors://kde/stable/frameworks/5.64/networkmanager-qt-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="578d2fcb46ce7f75e9806b0e82f9a0819d05be01" type="tarxz">mirrors://kde/stable/frameworks/5.70/networkmanager-qt-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>NetworkManager-devel</Dependency>
@@ -54,6 +54,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

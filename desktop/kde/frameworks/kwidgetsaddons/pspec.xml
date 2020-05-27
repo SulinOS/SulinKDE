@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE5 desktop widgets</Summary>
         <Description>KdeWidgetsAddons is a framework contains addon widgets and shared libraries for applications using Qt5-Widgets.</Description>
-        <Archive sha1sum="97337bce5054cf1fe8270dc46b612f497f1d9e10" type="tarxz">mirrors://kde/stable/frameworks/5.64/kwidgetsaddons-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="96578804ba98e5f573bc7f70040a8c19c1560fed" type="tarxz">mirrors://kde/stable/frameworks/5.70/kwidgetsaddons-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -53,6 +53,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

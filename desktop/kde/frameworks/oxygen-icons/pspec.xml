@@ -11,7 +11,7 @@
         <License>LGPL</License>
         <Summary>KDE Oxygen icons</Summary>
         <Description>"The Oxygen Icon Theme</Description>
-        <Archive sha1sum="2a303f764bd9d4eaf0dbb9161823f072545b38cd" type="tarxz">mirrors://kde/stable/frameworks/5.64/oxygen-icons5-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="28edb26355b47777227337ab4efe645b7d739c38" type="tarxz">mirrors://kde/stable/frameworks/5.70/oxygen-icons5-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>extra-cmake-modules</Dependency>
             <Dependency>qt5-base-devel</Dependency>
@@ -27,6 +27,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

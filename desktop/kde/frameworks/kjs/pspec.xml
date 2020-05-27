@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>JavaScript engine for KDE</Summary>
         <Description>This library provides an ECMAScript compatible interpreter. The ECMA standard is based on well known scripting languages such as Netscape's JavaScript and Microsoft's JScript.</Description>
-        <Archive sha1sum="416714203cb86d3262daad32118f1260480a9b8b" type="tarxz">mirrors://kde/stable/frameworks/5.64/portingAids/kjs-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="2c3a4c1c932a3a4d8f43a8636bf646c57ddff1a5" type="tarxz">mirrors://kde/stable/frameworks/5.70/portingAids/kjs-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kdoctools-devel</Dependency>
@@ -54,6 +54,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

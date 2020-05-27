@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Qt wrapper for KDE 5 Bluez DBus API</Summary>
         <Description>Qt wrapper for KDE 5 DBus API.</Description>
-        <Archive sha1sum="1639e3860e638382918b8bd40dde52fc0781a374" type="tarxz">mirrors://kde/stable/frameworks/5.64/bluez-qt-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="6a9cf5bc49c871db6e575eea273baf6a834a0bcc" type="tarxz">mirrors://kde/stable/frameworks/5.70/bluez-qt-5.70.0.tar.xz</Archive>
         <BuildDependencies>
              <Dependency>bluez</Dependency>
              <Dependency>bluez-libs-devel</Dependency>
@@ -55,6 +55,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

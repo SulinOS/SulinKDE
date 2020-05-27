@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Utilities for core application functionality and accessing the OS</Summary>
         <Description>KCoreAddons provides classes built on top of QtCore to perform various tasks such as manipulating mime types, autosaving files, creating backup files, generating random sequences, performing text manipulations such as macro replacement, accessing user information and many more.</Description>
-        <Archive sha1sum="1008a735f1de2ce7513b334a112c049417933805" type="tarxz">mirrors://kde/stable/frameworks/5.64/kcoreaddons-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="4242f9e8ebfe57cac2bbceba7b026a5305623d69" type="tarxz">mirrors://kde/stable/frameworks/5.70/kcoreaddons-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -60,6 +60,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

@@ -13,7 +13,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Framework for managing menu and toolbar actions</Summary>
         <Description>Kxmlgui provides a framework for managing menu and toolbar actions in an abstract way.</Description>
-        <Archive sha1sum="2429e775c7d4a23a9734e7f35e822d8d604faf58" type="tarxz">mirrors://kde/stable/frameworks/5.64/kxmlgui-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="1323f7d8db8462d40e657b590df802e8fec5d0aa" type="tarxz">mirrors://kde/stable/frameworks/5.70/kxmlgui-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>attica-devel</Dependency>
@@ -87,6 +87,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>KDE5 window manager access framework</Summary>
         <Description>KWindowSystem provides information about the state of the window manager and allows asking the window manager to change the using a more high-level interface than the NETWinInfo/NETRootInfo low-level classes.</Description>
-        <Archive sha1sum="c30e9cecde8c88b518063bf051b4e272d0bbbb3c" type="tarxz">mirrors://kde/stable/frameworks/5.64/kwindowsystem-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="2d4bfc9061998a4b1affc598a94fc938cf76f622" type="tarxz">mirrors://kde/stable/frameworks/5.70/kwindowsystem-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-linguist</Dependency>
@@ -69,6 +69,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

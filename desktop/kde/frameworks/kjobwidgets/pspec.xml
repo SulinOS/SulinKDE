@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Widgets for showing progress of asynchronous jobs</Summary>
         <Description>KJobWIdgets provides widgets for showing progress of asynchronous jobs.</Description>
-        <Archive sha1sum="c49c6ee64c1251ca76a02b7d6e682f32ac498dba" type="tarxz">mirrors://kde/stable/frameworks/5.64/kjobwidgets-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="5f8081486c3188119a97dac411153110406ac168" type="tarxz">mirrors://kde/stable/frameworks/5.70/kjobwidgets-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>libX11-devel</Dependency>
             <Dependency>qt5-base-devel</Dependency>
@@ -59,6 +59,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>

@@ -14,7 +14,7 @@
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Multi-threaded programming framework for KDE</Summary>
         <Description>ThreadWeaver is a helper for multithreaded programming.  It uses a job-based interface to queue tasks and execute them in an efficient way.</Description>
-        <Archive sha1sum="255f504c8ba677d91da3d7c5ba4f082bed703d19" type="tarxz">mirrors://kde/stable/frameworks/5.64/threadweaver-5.64.0.tar.xz</Archive>
+        <Archive sha1sum="7fdab8a1b3daab8bf1f6f94212f4310e1f5410e6" type="tarxz">mirrors://kde/stable/frameworks/5.70/threadweaver-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>extra-cmake-modules</Dependency>
@@ -49,6 +49,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.70.0</Version>
+            <Comment>KDE framework 5.70.0 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-11-23</Date>
             <Version>5.64.0</Version>
