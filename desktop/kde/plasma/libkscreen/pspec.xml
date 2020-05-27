@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>KDE5 screen management library</Summary>
         <Description>Dynamic display management library for KDE</Description>
-        <Archive sha1sum="c08c9837c914085b806bae14fdcb1adaa29ce9bb" type="tarxz">mirrors://kde/stable/plasma/5.17.3/libkscreen-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="f06224e4f6e7ac3dbea8b72008d17cad3399fac9" type="tarxz">mirrors://kde/stable/plasma/5.18.5/libkscreen-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-x11extras-devel</Dependency>
@@ -67,6 +67,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

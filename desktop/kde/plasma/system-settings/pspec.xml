@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>KDE5 system settings manager</Summary>
         <Description>System-settings is a control panel for KDE5 Plasma</Description>
-        <Archive sha1sum="1bcb234ac6fd2e3193d73250e7a4b46b75708fea" type="tarxz">mirrors://kde/stable/plasma/5.17.3/systemsettings-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="17d1d4f2a2b80f94d9bf166303d6241722c954c4" type="tarxz">mirrors://kde/stable/plasma/5.18.5/systemsettings-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kdoctools-devel</Dependency>
@@ -88,6 +88,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>Plasma applet written in QML for managing network connections</Summary>
         <Description>Plasma applet written in QML for managing network connections</Description>
-        <Archive sha1sum="3cb2260c87d882ca2021b57b27d60424e9a98218" type="tarxz">mirrors://kde/stable/plasma/5.17.3/plasma-nm-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="14a2ce5762e0b39384f2f2bef6374f99712ab1d8" type="tarxz">mirrors://kde/stable/plasma/5.18.5/plasma-nm-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>networkmanager-qt-devel</Dependency>
@@ -75,6 +75,13 @@
       </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

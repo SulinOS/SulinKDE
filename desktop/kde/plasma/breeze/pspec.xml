@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>KDE5 Plasma artwork</Summary>
         <Description>Artwork, styles and assets for the Breeze visual style for the Plasma Desktop</Description>
-        <Archive sha1sum="6b6a6ad9a65c17e5fe6c00ef16029720add1b8cb" type="tarxz">mirrors://kde/stable/plasma/5.17.3/breeze-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="a22f6310bbdf2352800926770bf74152c4523b30" type="tarxz">mirrors://kde/stable/plasma/5.18.5/breeze-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>sassc</Dependency>
             <Dependency>qt5-base-devel</Dependency>
@@ -99,6 +99,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

@@ -14,7 +14,7 @@
         <IsA>app:gui</IsA>
         <Summary>The KDE5 Plasma Workspace Components</Summary>
         <Description>The KDE5 Plasma Workspace Components</Description>
-        <Archive sha1sum="167e677f2ce610d4e64a9acbc3ab5aeb0845cf8b" type="tarxz">mirrors://kde/stable/plasma/5.17.3/plasma-workspace-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="41af57ddd692397e6f695fd54012532afa93336f" type="tarxz">mirrors://kde/stable/plasma/5.18.5/plasma-workspace-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>iso-codes</Dependency>
             <Dependency>baloo-devel</Dependency>
@@ -256,6 +256,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

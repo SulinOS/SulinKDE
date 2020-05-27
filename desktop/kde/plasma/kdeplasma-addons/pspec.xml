@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>Additional client tools for KDE applications</Summary>
         <Description>Additional client tools for KDE applications</Description>
-        <Archive sha1sum="0a386a3109f10bc0a79b6b69b70e53cb3116531f" type="tarxz">mirrors://kde/stable/plasma/5.17.3/kdeplasma-addons-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="8721f2c33d1b58dafbafd389b646f45d98a525d8" type="tarxz">mirrors://kde/stable/plasma/5.18.5/kdeplasma-addons-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>libxcb-devel</Dependency>
@@ -87,6 +87,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

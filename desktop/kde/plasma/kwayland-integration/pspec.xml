@@ -12,7 +12,7 @@
         <IsA>library</IsA>
         <Summary>Provides integration plugins for various KDE frameworks for the wayland windowing system</Summary>
         <Description>Provides integration plugins for various KDE frameworks for the wayland windowing system</Description>
-        <Archive sha1sum="76fd82f99b5c206b39934672cf9a3aeb05b5943a" type="tarxz">mirrors://kde/stable/plasma/5.17.3/kwayland-integration-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="fb8fc65af47584b3aa028963d8123a1aa892efbc" type="tarxz">mirrors://kde/stable/plasma/5.18.5/kwayland-integration-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>kwayland-devel</Dependency>
             <Dependency>qt5-base-devel</Dependency>
@@ -38,6 +38,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

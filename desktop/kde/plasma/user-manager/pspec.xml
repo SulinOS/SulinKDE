@@ -13,7 +13,7 @@
         <IsA>app:gui</IsA>
         <Summary>KDE 5 User Manager</Summary>
         <Description>User Manager within KDE workspace and applications</Description>
-        <Archive sha1sum="95f3296178759053e6bc321551b93f7bd10362b9" type="tarxz">mirrors://kde/stable/plasma/5.17.3/user-manager-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="088311b3a854f574476760b162e386f8d438f0a5" type="tarxz">mirrors://kde/stable/plasma/5.18.5/user-manager-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <!--Dependency>accountsservice-devel</Dependency-->
@@ -58,6 +58,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>

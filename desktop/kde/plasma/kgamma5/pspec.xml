@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>Adjust your monitor's gamma settings.</Summary>
         <Description>Adjust your monitor's gamma settings.</Description>
-        <Archive sha1sum="8e533403e3451c5cd89a59497e729d496b515cce" type="tarxz">mirrors://kde/stable/plasma/5.17.3/kgamma5-5.17.3.tar.xz</Archive>
+        <Archive sha1sum="bdede1efdd02eec3e5ee34eb555e44227d2bb2f1" type="tarxz">mirrors://kde/stable/plasma/5.18.5/kgamma5-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kdoctools-devel</Dependency>
@@ -54,6 +54,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2020-05-27</Date>
+            <Version>5.18.5</Version>
+            <Comment>KDE framework 5.18.5 compiled with using qt5-5.15.0</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-09-16</Date>
             <Version>5.17.3</Version>
