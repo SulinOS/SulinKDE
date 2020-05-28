@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>ssh-add helper that uses kwallet and kpassworddialog</Summary>
         <Description>ssh-add helper that uses kwallet and kpassworddialog</Description>
-        <Archive sha1sum="88fe0f15ecf09e0973bb593b6146d6640dbf639b" type="tarxz">mirrors://kde/stable/plasma/5.18.5/ksshaskpass-5.18.5.tar.xz</Archive>
+        <Archive sha1sum="67409cca96a87b5a66574c820a09242e126b7249" type="tarxz">mirrors://kde/stable/plasma/5.18.5/ksshaskpass-5.18.5.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kdoctools-devel</Dependency>

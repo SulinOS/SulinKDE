@@ -32,9 +32,6 @@
             <Dependency>kcrash-devel</Dependency>
             <Dependency>NetworkManager-devel</Dependency>
         </BuildDependencies>
-        <Patches>
-<!--             <Patch level="1">powerdevil-enable-upower.patch</Patch> -->
-        </Patches>
     </Source>
 
     <Package>
@@ -73,6 +70,7 @@
             <Path fileType="data">/usr/share</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/libexec</Path>
             <Path fileType="library">/usr/lib/cmake</Path>
             <Path fileType="library">/usr/lib/qt5</Path>
             <Path fileType="library">/usr/lib</Path>

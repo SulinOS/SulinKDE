@@ -64,7 +64,7 @@
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib/cmake</Path>
             <Path fileType="library">/usr/lib/qt5/plugins</Path>
-            <Path fileType="executable">/usr/lib/libexec/kauth</Path>
+            <Path fileType="executable">/usr/libexec</Path>
             <Path fileType="library">/usr/lib</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>

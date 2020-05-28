@@ -19,6 +19,7 @@
             <Dependency>iso-codes</Dependency>
             <Dependency>baloo-devel</Dependency>
             <Dependency>kactivities-devel</Dependency>
+            <Dependency>kactivities-stats-devel</Dependency>
             <Dependency>kdelibs4-support-devel</Dependency>
             <Dependency>kdesignerplugin</Dependency>
             <Dependency>kdesu-devel</Dependency>
@@ -73,6 +74,7 @@
         <RuntimeDependencies>
             <Dependency>baloo</Dependency>
             <Dependency>kactivitymanagerd</Dependency>
+            <Dependency>kactivities-stats-devel</Dependency>
             <Dependency>cln</Dependency>
             <Dependency>kactivities</Dependency>
             <Dependency>kitemmodels</Dependency>
@@ -153,6 +155,7 @@
             <Path fileType="data">/usr/share</Path>
             <Path fileType="applications">/usr/share/applications</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="executable">/usr/libexec</Path>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib/qt5/plugins</Path>
             <Path fileType="library">/usr/lib/qt5/qml</Path>

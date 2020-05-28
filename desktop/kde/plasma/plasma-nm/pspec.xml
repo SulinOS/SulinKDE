@@ -27,7 +27,7 @@
             <Dependency>extra-cmake-modules</Dependency>
             <Dependency>qt5-declarative-devel</Dependency>
             <Dependency>plasma-framework-devel</Dependency>
-            <Dependency>kdelibs4-support-devel</Dependency>
+        <Dependency>kdelibs4-support-devel</Dependency>
             <Dependency>kdesignerplugin</Dependency>
             <Dependency>kinit-devel</Dependency>
             <Dependency>kemoticons-devel</Dependency>

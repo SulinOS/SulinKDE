@@ -15,5 +15,3 @@ def build():
 
 def install():
     kde.install()
-
-    inarytools.dodoc("COPYING")
