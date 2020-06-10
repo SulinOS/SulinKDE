@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <PartOf>desktop.kde.frameworks</PartOf>
         <Summary>Framework for searching and managing metadata</Summary>
-        <Description>Baloo is a framework for searching and managing metada</Description>
+        <Description>Baloo is a framework for searching and managing metadata.</Description>
         <Archive sha1sum="e7d5de83b2c3fdb2b20a865d588098419e22f80d" type="tarxz">mirrors://kde/stable/frameworks/5.70/baloo-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
@@ -60,6 +60,9 @@
             <Path fileType="library">/usr/lib</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/etc/xdg/autostart/baloo_file.desktop">baloo_file.desktop</AdditionalFile>
+        </AdditionalFiles>
     </Package>
 
     <Package>

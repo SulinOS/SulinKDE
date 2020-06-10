@@ -24,6 +24,7 @@
             <Dependency>poppler-qt5-devel</Dependency>
             <Dependency>karchive-devel</Dependency>
             <Dependency>ki18n-devel</Dependency>
+            <Dependency>kcoreaddons-devel</Dependency>
             <Dependency>extra-cmake-modules</Dependency>
         </BuildDependencies>
     </Source>
@@ -34,6 +35,7 @@
             <Dependency>qt5-base</Dependency>
             <Dependency>ebook-tools</Dependency>
             <Dependency>exiv2-libs</Dependency>
+            <Dependency>kcoreaddons</Dependency>
             <Dependency>taglib</Dependency>
             <Dependency>ffmpeg</Dependency>
             <Dependency>poppler-qt5</Dependency>

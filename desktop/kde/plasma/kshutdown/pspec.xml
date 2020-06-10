@@ -19,7 +19,7 @@
             <Dependency>knotifyconfig-devel</Dependency>
             <Dependency>kidletime-devel</Dependency>
         </BuildDependencies>
-        <Archive sha1sum="5d2ac6d55289381de565d83774ee68f2e889e873" type="zip">mirrors://sourceforge/kshutdown/KShutdown/5.1-beta/kshutdown-source-5.1-beta.zip</Archive>
+        <Archive sha1sum="a04ef41be25529ac3ba7f90dd6c14b1bc7fb61b1">https://netix.dl.sourceforge.net/project/kshutdown/KShutdown/5.2/kshutdown-source-5.2.zip</Archive>
     </Source>
     <Package>
         <Name>kshutdown</Name>
@@ -45,6 +45,13 @@
         </Files>
     </Package>
     <History>
+        <Update release="2">
+            <Date>2020-06-09</Date>
+            <Version>5.2</Version>
+            <Comment>Package is rebuilded and released up.</Comment>
+            <Name>Suleyman Poyraz</Name>
+            <Email>zaryob.dev@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-12-10</Date>
             <Version>5.1b</Version>

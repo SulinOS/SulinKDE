@@ -31,6 +31,7 @@
             <Dependency>kdesignerplugin</Dependency>
             <Dependency>kiconthemes-devel</Dependency>
             <Dependency>krunner-devel</Dependency>
+            <Dependency>kholidays-devel</Dependency>
             <Dependency>kdelibs4-support-devel</Dependency>
             <Dependency>plasma-framework-devel</Dependency>
             <Dependency>plasma-workspace-devel</Dependency>
@@ -41,13 +42,14 @@
     <Package>
         <Name>kdeplasma-addons</Name>
         <RuntimeDependencies>
-             <Dependency>qt5-base</Dependency>  
+             <Dependency>qt5-base</Dependency>
              <Dependency>plasma-framework</Dependency>
              <Dependency>libxcb</Dependency>
              <Dependency>xcb-util-image</Dependency>
              <Dependency>knewstuff</Dependency>
              <Dependency>krunner</Dependency>
              <Dependency>kio</Dependency>
+             <Dependency>kholidays</Dependency>
              <Dependency>kiconthemes</Dependency>
              <Dependency>ki18n</Dependency>
              <Dependency>kross</Dependency>

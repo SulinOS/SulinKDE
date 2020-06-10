@@ -19,6 +19,7 @@
             <Dependency>kdoctools-devel</Dependency>
             <Dependency>kio-devel</Dependency>
             <Dependency>kauth-devel</Dependency>
+            <Dependency>plasma-workspace-devel</Dependency>
             <Dependency>khtml-devel</Dependency>
             <Dependency>kcmutils-devel</Dependency>
             <Dependency>docbook-xsl</Dependency>
@@ -42,9 +43,10 @@
             <Dependency>ki18n</Dependency>
             <Dependency>kiconthemes</Dependency>
             <Dependency>kio</Dependency>
-            <Dependency>kitemviews</Dependency> 
-            <Dependency>kservice</Dependency> 
-            <Dependency>kwindowsystem</Dependency> 
+            <Dependency>kitemviews</Dependency>
+            <Dependency>kservice</Dependency>
+            <Dependency>plasma-workspace</Dependency>
+            <Dependency>kwindowsystem</Dependency>
             <Dependency>kxmlgui</Dependency>
         </RuntimeDependencies>
         <Files>
@@ -56,7 +58,7 @@
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
-    
+
     <Package>
         <Name>system-settings-devel</Name>
         <Summary>Development files for system-settings</Summary>
@@ -74,9 +76,9 @@
             <Dependency>ki18n-devel</Dependency>
             <Dependency>kiconthemes</Dependency>
             <Dependency>kio-devel</Dependency>
-            <Dependency>kitemviews-devel</Dependency> 
-            <Dependency>kservice-devel</Dependency> 
-            <Dependency>kwindowsystem-devel</Dependency> 
+            <Dependency>kitemviews-devel</Dependency>
+            <Dependency>kservice-devel</Dependency>
+            <Dependency>kwindowsystem-devel</Dependency>
             <Dependency>kxmlgui-devel</Dependency>
             <Dependency release="current">system-settings</Dependency>
         </RuntimeDependencies>

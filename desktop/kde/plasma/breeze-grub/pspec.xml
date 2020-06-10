@@ -12,12 +12,11 @@
         <Description>Breeze theme for GRUB.</Description>
         <Archive sha1sum="a196bbd56a8f8c6ac59f551f99fa5a9ef3479b24" type="tarxz">mirrors://kde/stable/plasma/5.18.5/breeze-grub-5.18.5.tar.xz</Archive>
     </Source>
-    
+
     <Package>
         <Name>breeze-grub</Name>
         <Summary>Breeze theme for GRUB.</Summary>
         <RuntimeDependencies>
-            <Dependency>grub2</Dependency>
             <Dependency>noto-fonts</Dependency>
         </RuntimeDependencies>
         <Files>
@@ -25,7 +24,7 @@
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
-    
+
     <History>
         <Update release="2">
             <Date>2020-05-27</Date>

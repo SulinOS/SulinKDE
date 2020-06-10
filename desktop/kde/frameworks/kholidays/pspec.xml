@@ -13,7 +13,7 @@
         <IsA>app:console</IsA>
         <Summary>KDE library for regional holiday information</Summary>
         <Description>KDE library for regional holiday information</Description>
-        <Archive sha1sum="9dd6a2f1601d83fafc80543a7345395b80b4f384" type="targz">https://github.com/KDE/kholidays/archive/v5.64.0.tar.gz</Archive>
+        <Archive sha1sum="02d7c8861b608057bb375d0e4db3ca18343df172">mirrors://kde/stable/frameworks/5.70/kholidays-5.70.0.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>qt5-declarative-devel</Dependency>
@@ -63,6 +63,13 @@
     </Package>
 
     <History>
+      <Update release="2">
+          <Date>2020-06-10</Date>
+          <Version>5.70.0</Version>
+          <Comment>Automatic version upgrade.</Comment>
+          <Name>Ali Rıza KESKİN</Name>
+          <Email>parduscix@yandex.ru</Email>
+      </Update>
         <Update release="1">
             <Date>2019-11-28</Date>
             <Version>5.64.0</Version>
